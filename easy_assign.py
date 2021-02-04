@@ -16,8 +16,13 @@ DO NOT EDIT THE FUNCTION NAMES.
 
 def append_two_strings(string_1, string_2):
 
-    pass
+    print(f'String 1 is: {string_1}\nString 2 is: {string_2}')
 
+    appended_string = string_1 + ' ' + string_2
+    print(f'String 3 is {appended_string}')
+    return appended_string
+
+append_two_strings('Hello','World!')
 
 def append_character(string_1, char_1):
 
